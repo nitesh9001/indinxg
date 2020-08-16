@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55e2eff57378725c0b1da2db629725b4",
+    "revision": "367e82a1afe57557bf59cd2a1fab973e",
     "url": "/indinxg/index.html"
   },
   {
-    "revision": "c6b9ad029faa04a0e915",
-    "url": "/indinxg/static/css/2.1c5112aa.chunk.css"
+    "revision": "02c0866a5dfb3278d406",
+    "url": "/indinxg/static/css/2.5dae0965.chunk.css"
   },
   {
-    "revision": "3301f3f1e1f693c9ba8e",
-    "url": "/indinxg/static/css/main.2dcce831.chunk.css"
+    "revision": "96b49aa0353efd5782f3",
+    "url": "/indinxg/static/css/main.62127a29.chunk.css"
   },
   {
-    "revision": "c6b9ad029faa04a0e915",
-    "url": "/indinxg/static/js/2.f98ec24f.chunk.js"
+    "revision": "02c0866a5dfb3278d406",
+    "url": "/indinxg/static/js/2.e5db7d5e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/indinxg/static/js/2.f98ec24f.chunk.js.LICENSE.txt"
+    "url": "/indinxg/static/js/2.e5db7d5e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3301f3f1e1f693c9ba8e",
-    "url": "/indinxg/static/js/main.d1e61ecd.chunk.js"
+    "revision": "96b49aa0353efd5782f3",
+    "url": "/indinxg/static/js/main.554a513a.chunk.js"
   },
   {
     "revision": "63ef7b7d26bb149759df",
@@ -74,6 +74,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bf228e395889603a8ab42d0e8f0a7388",
     "url": "/indinxg/static/media/digital.bf228e39.png"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/indinxg/static/media/fontawesome-webfont.674f50d2.eot"
+  },
+  {
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/indinxg/static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/indinxg/static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/indinxg/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/indinxg/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "11f84a5127f015dd8d51a3336e5016d6",
