@@ -14,7 +14,7 @@ function App() {
           <div className="App">  
             {/* <ReactNotification />         */}
             <Switch>
-            <Route exact path="/" component={Landing} />
+            <Route exact path="/indinxg" component={Landing} />
             <Route component={Routes} />
             </Switch>
           </div>
