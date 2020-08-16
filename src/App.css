@@ -1593,7 +1593,15 @@ box-shadow: 0 0 5px var(--primary-color);
 /* medai query for lessthan 768px */
 
 @media screen and (max-width:768px)
+
 {
+  .logo_header{
+    width: 110px;
+    height: 100%;
+    padding-left: 1px;
+    margin-left: 0;
+    padding-top: 10px;
+  }
   .Inner_body_landing{
     display: flex;
     flex-direction: column-reverse;
