@@ -16,19 +16,16 @@ const Footer= () => {
                  <h3 className="footer_heading">Information</h3>
                  <ul>
                   <li className="footer_list">
-                    <NavLink className="footer_link" to="/AboutUs">About us</NavLink>
+                    <NavLink className="footer_link" to="/about_us_and_our_team">About us</NavLink>
                   </li>
                   <li className="footer_list">
-                   <NavLink  className="footer_link"  to="/MoreSearch">MoreSearch</NavLink>
+                    <NavLink  className="footer_link"  to="/blog">Blog</NavLink>
                   </li>
                   <li className="footer_list">
-                    <NavLink  className="footer_link"  to="/Blog">Blog</NavLink>
+                   <NavLink  className="footer_link"  to="/give_your_feedback">Testinomials</NavLink>
                   </li>
                   <li className="footer_list">
-                   <NavLink  className="footer_link"  to="/Testinomials">Testinomials</NavLink>
-                  </li>
-                  <li className="footer_list">
-                   <NavLink  className="footer_link"  to="/Events">Events</NavLink>
+                   <NavLink  className="footer_link"  to="/events_and_workshop">Events</NavLink>
                   </li>
                 </ul>
                </div>
@@ -36,16 +33,16 @@ const Footer= () => {
                   <h3 className="footer_heading">Helpful Links</h3>
                 <ul>
                   <li className="footer_list">
-                   <NavLink  className="footer_link"  to="/AboutUs">Services</NavLink>
+                   <NavLink  className="footer_link"  to="/services">Services</NavLink>
                   </li>
                   <li className="footer_list">
-                   <NavLink  className="footer_link"  to="/Blog">Support</NavLink>
+                   <NavLink  className="footer_link"  to="/contact_us">Support</NavLink>
                   </li>
                   <li className="footer_list">
-                   <NavLink  className="footer_link"  to="/Events">Terms & Conditions</NavLink>
+                   <NavLink  className="footer_link"  to="/terms_and_condition">Terms & Conditions</NavLink>
                   </li>
                   <li className="footer_list">
-                   <NavLink  className="footer_link"  to="/Testinomials">Privacy Policy</NavLink>
+                   <NavLink  className="footer_link"  to="/privacy_policy">Privacy Policy</NavLink>
                   </li>
                 </ul>
                </div>

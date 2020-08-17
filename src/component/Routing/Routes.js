@@ -6,20 +6,28 @@ import ContactUs from '../Dashboard/ContactUs';
 import Aboutus from '../Dashboard/Aboutus';
 import Blog from '../Dashboard/Blog';
 import Services from '../Dashboard/Services';
+import Notfound from '../Dashboard/Notfound';
+import ScrollalwaysTop from '../Layout/ScrollalwaysTop';
+import Trysolution from '../Layout/Trysolution';
 
 
 
 function Routes() {
     return (
         <div>
+        <ScrollalwaysTop>
         <Switch>
             <Route exact path="/indinxg" component={Landing} />np
             <Route exact path="/contact_us" component={ ContactUs} />
             <Route exact path="/about_us_and_our_team" component={ Aboutus} />
             <Route exact path="/services" component={Services} />
             <Route exact path="/blog" component={Blog} />
+            <Route exact path="/notfound" component={Notfound} />
+            <Route exact path="/try" component={Trysolution} />
              
             </Switch>
+            </ScrollalwaysTop>
+
         </div>
     )
 }

@@ -1,9 +1,8 @@
-import React ,{Fragment,useEffect } from 'react';
+import React ,{Fragment,useEffect,useState } from 'react';
 import DashNavbar from '../Layout/Navbar';
 import img_landing from '../../Assets/landingImg.png';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import method from '../../Assets/agile.png';
-import { Link } from 'react-router-dom';
 import technology from '../../Assets/technology.png';
 import system from '../../Assets/systemsIntegration.png';
 import inovative from '../../Assets/inovation.png';
@@ -15,8 +14,15 @@ import Footer from '../Layout/Footer'
 import "aos/dist/aos.css";
 import '../../slider-Animation.css';
 import ProgreeBarPage from '../Layout/ProgreeBarPage';
+import { Link } from 'react-router-dom';
+import Trysolution from '../Layout/Trysolution';
  
 function Landing() {
+  const [opentry, setopentry] = useState(false)
+  const opentry_solution=(e)=>{
+    e.preventDefault();
+    setopentry(!opentry)
+  }
     useEffect(()=>{
       Aos.init({duration:1000,
         offset: 100,
@@ -24,6 +30,9 @@ function Landing() {
         delay: 1,
         disable: 'mobile'})
     },[]);
+    useEffect(()=>{
+      window.scrollTo(0,0);
+    },[])
     const service_data=[
       {id:"1",
        servicesicon:"fa fa-cogs" ,
@@ -55,18 +64,6 @@ function Landing() {
      services_deatils:"dsdnjd dbfjbfj hjbthjbs hbsfbshfbhjf nf jhfbsfbkjf fbhfbsjnf snfbuisbsmnf jhfbjf skfnsjk msfnisfbskmf skjfbjs fjskfbjhsfn, fsjkfbshf sm,fui  f hfvjsf snfbusifbskf mnbfuidsbfmnsfbuisf nmbfuzygfsnf nmbfuisbf smnf hsgfsf sn nhsvfusdbfhjmvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg",
      service_img:"digital.png",
      service_animation:"fade-left"},
-    //  {id:"6", 
-    //  servicesicon:"fa fa-cogs" , 
-    //  services_name:"Service_one",  
-    //  services_deatils:"dsdnjd dbfjbfj hjbthjbs hbsfbshfbhjf nf jhfbsfbkjf fbhfbsjnf snfbuisbsmnf jhfbjf skfnsjk msfnisfbskmf skjfbjs fjskfbjhsfn, fsjkfbshf sm,fui  f hfvjsf snfbusifbskf mnbfuidsbfmnsfbuisf nmbfuzygfsnf nmbfuisbf smnf hsgfsf sn nhsvfusdbfhjmvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg",
-    //  service_img:"", 
-    //  service_animation:"fade-right"},
-    //  {id:"7", 
-    //  servicesicon:"fa fa-cogs" , 
-    //  services_name:"Service_one",  
-    //  services_deatils:"dsdnjd dbfjbfj hjbthjbs hbsfbshfbhjf nf jhfbsfbkjf fbhfbsjnf snfbuisbsmnf jhfbjf skfnsjk msfnisfbskmf skjfbjs fjskfbjhsfn, fsjkfbshf sm,fui  f hfvjsf snfbusifbskf mnbfuidsbfmnsfbuisf nmbfuzygfsnf nmbfuisbf smnf hsgfsf sn nhsvfusdbfhjmvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg",
-    //  service_img:"", 
-    //  service_animation:"fade-left"},
   ]
 
       const content = [
@@ -98,8 +95,7 @@ function Landing() {
        <Fragment>
        <ProgreeBarPage />
        <DashNavbar />
-
-       <div className="full_display_screen_windows">
+       <div className="full_display_screen_windows"  >
          <div className="Inner_body_landing">
            <div className="img_text width_30" >
              <div className="one"></div>
@@ -116,8 +112,10 @@ function Landing() {
               </div>
               <br/>
               <div className="btn_services">
-                 <button className="btn_services_css sol">Try a solution <i class="fa fa-long-arrow-right" aria-hidden="true" style={{color:"#FAAD3B"}}></i> </button>
+                 <button className="btn_services_css sol" onClick={opentry_solution}>Try a solution <i class="fa fa-long-arrow-right" aria-hidden="true" style={{color:"#FAAD3B"}}></i> </button>
+                 <Link to="/contact_us">
                  <button className="btn_services_css expert"> Talk to expert <i class="fa fa-long-arrow-right" aria-hidden="true" style={{color:"#17a2b8"}}></i></button>
+                 </Link>
               </div>
               </div>
            </div>
@@ -163,19 +161,7 @@ function Landing() {
             </div>
      </div>
        <div className="innerbody_highlight_aboutus">
-       <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" style={{position:"absolute",width:"98%", zIndex:-1}} >
-  <defs>
-    <clipPath id="clip-Web_1920_1">
-      <rect width="1920" height="1080"/>
-    </clipPath>
-  </defs>
-  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
-    <rect width="1920" height="1080" fill="rgba(255,255,255,0)"/>
-    <path id="Path_1" data-name="Path 1" d="M86.824-233.744,1795.756-7.016V634.143L248.014,578.281,86.824-233.744Z" transform="translate(160.012 413.884) rotate(-11)" fill="rgba(72,209,213,0.47)"/>
-    <rect id="Rectangle_1" data-name="Rectangle 1" width="675" height="660" rx="137" transform="translate(1980.757 0.299) rotate(45)" fill="#f29f22"/>
-    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="90" cy="89" rx="90" ry="89" transform="translate(1424 674)" fill="#97dae7"/>
-  </g>
-</svg>
+       
        <div className="highlight_dot">
        <h6 className="titleformidheading">ABOUT US</h6>
        </div>
@@ -218,10 +204,10 @@ function Landing() {
           </div>
         <Tabs className="slide_tablist_items">
         <TabList className="slide_tablist_items_tablist" data-aos="fade-left">
-            <Tab className="slide_tablist_items_tablist_tabitem" activeClassName="slide_tablistactive active">Agile Methodology</Tab>
-            <Tab className="slide_tablist_items_tablist_tabitem" activeClassName="slide_tablistactive active">Adapting to Latest Technology</Tab>
-            <Tab className="slide_tablist_items_tablist_tabitem" activeClassName="slide_tablistactive active">Simplify System Integration</Tab>
-            <Tab className="slide_tablist_items_tablist_tabitem" activeClassName="slide_tablistactive active">Innovating and Unique Solution</Tab>
+            <Tab className="slide_tablist_items_tablist_tabitem" active="slide_tablistactive">Agile Methodology</Tab>
+            <Tab className="slide_tablist_items_tablist_tabitem" >Adapting to Latest Technology</Tab>
+            <Tab className="slide_tablist_items_tablist_tabitem" >Simplify System Integration</Tab>
+            <Tab className="slide_tablist_items_tablist_tabitem" >Innovating and Unique Solution</Tab>
         </TabList>
         <TabPanel className="slide_tablist_items_tablist_tabcontent" data-aos="fade-right">
             <img src={method} alt="img" />
@@ -360,6 +346,9 @@ function Landing() {
        </div>
        </div>
      </div>
+       {
+         opentry ?  <Trysolution  opentry={opentry} opentry_solution={opentry_solution} />:null
+       }
      <Footer/>
      <ScrollToTop/>
     </Fragment>      

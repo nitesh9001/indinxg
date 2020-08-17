@@ -1,4 +1,4 @@
-import React ,{Fragment}from 'react';
+import React ,{useEffect, Fragment}from 'react';
 import DashNavbar from '../Layout/Navbar';
 import Footer from '../Layout/Footer';
 import { Link } from 'react-router-dom';
@@ -6,17 +6,15 @@ import img_contactus from '../../Assets/aboutus.jpg'
 
 
 function Aboutus() {
-    
+  // useEffect(()=>{
+  //   window.scrollTo(0,0);
+  // },[])
    const about_us_info = {
      info:" iipsum, dolor sit amem, libero consequaturetur, adipisicing elit. Rem consequatur doloribus harum officia, modi assumenda enim quod similique itaque accusantium nisi, commodi nam labore sunt, vitae obcaecati perspiciatis. Tenetur, repellendus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus."
      }
        const team_data = [
       {username:"Nitesh Singh" , teamMemberRole:"Web developer" , teamMemberquotes:"lorem epsumhbh yfhjfjhf jgjdghjdff hjvdhfv bzhdffh", li_link:"" ,insta_link:"",twiter_link:"",email_link:"" }
-      ,{username:"Shakti Singh" , teamMemberRole:"Native App developer" , teamMemberquotes:"lorem epsumhbh yfhjfjhf jgjdghjdff hjvdhfv bzhdffh", li_link:"" ,insta_link:"",twiter_link:"",email_link:"" }
-      ,{username:"Saurabh Singh" , teamMemberRole:"Flutter developer" , teamMemberquotes:"lorem epsumhbh yfhjfjhf jgjdghjdff hjvdhfv bzhdffh", li_link:"" ,insta_link:"",twiter_link:"",email_link:"" }
-      ,{username:"Mridual Pandey" , teamMemberRole:"ML/AI" , teamMemberquotes:"lorem epsumhbh yfhjfjhf jgjdghjdff hjvdhfv bzhdffh", li_link:"" ,insta_link:"",twiter_link:"",email_link:"" }
       ,{username:"Akash Nigam" , teamMemberRole:"Marketing" , teamMemberquotes:"lorem epsumhbh yfhjfjhf jgjdghjdff hjvdhfv bzhdffh", li_link:"" ,insta_link:"",twiter_link:"",email_link:"" }
-      ,{username:"Asish Saini" , teamMemberRole:"Marketing" , teamMemberquotes:"lorem epsumhbh yfhjfjhf jgjdghjdff hjvdhfv bzhdffh", li_link:"" ,insta_link:"",twiter_link:"",email_link:"" }
     ]
     const Skills_data = [
       {type:"React js" , skill:"70%"},
@@ -30,7 +28,6 @@ function Aboutus() {
         <Fragment>
          <div className="about_us_page_section">
         <DashNavbar/>
-        
           <div className="services_page_main_inner_section">
           <div className="services_page_inner_side_contnet">
               <div className="services_contnet_hover_image_content_div">
@@ -78,7 +75,6 @@ function Aboutus() {
             <div className="grid_collection_section_team">
             {team_data.map((data ,index)=>
                 <div className="flex_equal_team_card" key={index}>
-                      
                      <div className="img_team_card">
                 </div>
                      <div className="content_team_card">
