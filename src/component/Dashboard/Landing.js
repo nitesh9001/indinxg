@@ -114,7 +114,7 @@ function Landing() {
               <div className="btn_services">
                  <button className="btn_services_css sol" onClick={opentry_solution}>Try a solution <i class="fa fa-long-arrow-right" aria-hidden="true" style={{color:"#FAAD3B"}}></i> </button>
                  <Link to="/contact_us">
-                 <button className="btn_services_css expert"> Talk to expert <i class="fa fa-long-arrow-right" aria-hidden="true" style={{color:"#17a2b8"}}></i></button>
+                 <button className="btn_services_css expert"> Get Broucher <i class="fa fa-long-arrow-right" aria-hidden="true" style={{color:"#17a2b8"}}></i></button>
                  </Link>
               </div>
               </div>
@@ -163,19 +163,11 @@ function Landing() {
        <div className="innerbody_highlight_aboutus">
        
        <div className="highlight_dot">
-       <h6 className="titleformidheading">ABOUT US</h6>
+       <h6 className="titleformidheading">WE WORK</h6>
        </div>
           <div className="innerbody_highlight_aboutus_content">
-              <h1>About Us</h1>
+              <h1>We<br/> Make Your work better</h1>
           </div> 
-          <div className="innerbody_highlight_aboutus_content_info">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellat culpa modi natus impedit rem, omnis ullam veniam laboriosam molestias dolore nihil doloremque maxime itaque in dolorem deserunt corporis accusamus!,
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellat culpa modi natus impedit rem, omnis ullam veniam laboriosam molestias dolore nihil doloremque maxime itaque in dolorem deserunt corporis accusamus!,
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellat culpa modi natus impedit rem, omnis ullam veniam laboriosam molestias dolore nihil doloremque maxime itaque in dolorem deserunt corporis accusamus!,
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellat culpa modi natus impedit rem, omnis ullam veniam laboriosam molestias dolore nihil doloremque maxime itaque in dolorem deserunt corporis accusamus!,
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum repellat culpa modi natus impedit rem, omnis ullam veniam laboriosam molestias dolore nihil doloremque maxime itaque in dolorem deserunt corporis accusamus!,
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, aliquam, nihil ipsam iusto saepe earum quis reiciendis qui sequi delectus laboriosam, nostrum dolore numquam inventore illum? Culpa ad non facere?
-          </div>
           <div className="innerbody_highlight_aboutus_content_info_data">
             <div className="innerbody_highlight_aboutus_content_data_flex" data-aos="fade-up">
             <div className="innerbody_highlight_aboutus_content_data_flex_number" data-aos="fade-left">
@@ -204,12 +196,12 @@ function Landing() {
           </div>
         <Tabs className="slide_tablist_items">
         <TabList className="slide_tablist_items_tablist" data-aos="fade-left">
-            <Tab className="slide_tablist_items_tablist_tabitem" active="slide_tablistactive">Agile Methodology</Tab>
+            <Tab className="slide_tablist_items_tablist_tabitem" >Agile Methodology</Tab>
             <Tab className="slide_tablist_items_tablist_tabitem" >Adapting to Latest Technology</Tab>
             <Tab className="slide_tablist_items_tablist_tabitem" >Simplify System Integration</Tab>
             <Tab className="slide_tablist_items_tablist_tabitem" >Innovating and Unique Solution</Tab>
         </TabList>
-        <TabPanel className="slide_tablist_items_tablist_tabcontent" data-aos="fade-right">
+        <TabPanel className="slide_tablist_items_tablist_tabcontent">
             <img src={method} alt="img" />
         </TabPanel>
         <TabPanel className="slide_tablist_items_tablist_tabcontent" >
@@ -317,7 +309,7 @@ function Landing() {
         
        </div>
       </div>
-      <div className="innerbody_highlight_testimonials" >
+      {/* <div className="innerbody_highlight_testimonials" >
        <div className="highlight_dot">
        <h6 className="titleformidheading">Testimonials</h6>
        </div>
@@ -330,7 +322,6 @@ function Landing() {
         <div
           key={index}
           className="slider-content">
-        {/* <img src= {item.image} alt="Loading"/> */}
          <section>
             <img src={item.userProfile} alt={item.user} />
             <span>
@@ -345,6 +336,7 @@ function Landing() {
      </Slider>
        </div>
        </div>
+      */}
      </div>
        {
          opentry ?  <Trysolution  opentry={opentry} opentry_solution={opentry_solution} />:null

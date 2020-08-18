@@ -19,13 +19,13 @@ const Footer= () => {
                     <NavLink className="footer_link" to="/about_us_and_our_team">About us</NavLink>
                   </li>
                   <li className="footer_list">
-                    <NavLink  className="footer_link"  to="/blog">Blog</NavLink>
+                    <NavLink  className="footer_link"  to="/notfound">Blog</NavLink>
                   </li>
                   <li className="footer_list">
                    <NavLink  className="footer_link"  to="/give_your_feedback">Testinomials</NavLink>
                   </li>
                   <li className="footer_list">
-                   <NavLink  className="footer_link"  to="/events_and_workshop">Events</NavLink>
+                   <NavLink  className="footer_link"  to="/notfound">Events</NavLink>
                   </li>
                 </ul>
                </div>

@@ -1,7 +1,10 @@
-import React, { Fragment } from 'react'
+import React, { Fragment,useEffect } from 'react'
 import DashNavbar from '../Layout/Navbar'
 import Footer from '../Layout/Footer'
 function ContactUs() {
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
     // const phone_no = "+91 7905985350";
     // function copy_number(e){
     //     e.preventDefault();

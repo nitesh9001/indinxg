@@ -1,11 +1,21 @@
-import React,{Fragment} from 'react';
+import React,{Fragment,useEffect,useState} from 'react';
 import DashNavbar from '../Layout/Navbar';
 import img_contactus from '../../Assets/services.png'
 import Footer from '../Layout/Footer';
 import { Link } from 'react-router-dom';
+import Trysolution from '../Layout/Trysolution';
+
 
 
 function Services() {
+    const [opentry, setopentry] = useState(false)
+  const opentry_solution=(e)=>{
+    e.preventDefault();
+    setopentry(!opentry)
+  }
+    useEffect(()=>{
+        window.scrollTo(0,0);
+      },[])
     const services_data=[
         {id:"1", servicesicon:"fa fa-cogs" , services_name:"Service_one" ,  services_deatils:"sdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbgdsdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg"},
        {id:"2", servicesicon:"fa fa-cogs" , services_name:"Service_one" ,  services_deatils:"dsdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbgsdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg"},
@@ -26,7 +36,7 @@ function Services() {
               <h3>Services We provide</h3>
               <p className="tagline_services">Our professional team try to transform your ideas into a real product and provide 24 * 7 support.</p>
               <p className="tagline_services_det">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti nostrum architecto omnis iusto unde velit assumenda consequuntur ullam quod cupiditate, deserunt, optio modi ea sapiente tenetur ipsam vero quis dolorem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore enim, alias, aperiam dolores sunt consectetur delectus id natus quidem eum ipsam, consequatur sint incidunt! Laboriosam natus non perferendis voluptas quos?</p>
-              <button className="btn_services_css sol">Start Now <i class="fa fa-long-arrow-right" aria-hidden="true" style={{color:"#FAAD3B"}}></i> </button> 
+              <button className="btn_services_css sol" onClick={opentry_solution}>Start Now <i class="fa fa-long-arrow-right" aria-hidden="true" style={{color:"#FAAD3B"}}></i> </button> 
               </div>
               </div>
               <div className="services_page_inner_side_image">
@@ -54,6 +64,9 @@ function Services() {
         )
          }
           </div>
+          {
+         opentry ?  <Trysolution  opentry={opentry} opentry_solution={opentry_solution} />:null
+       }
         <Footer/>
         </div>
         </Fragment>

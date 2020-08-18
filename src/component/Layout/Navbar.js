@@ -21,7 +21,7 @@ export default function DashNavbar() {
           <div className="nav_navbar">
             <NavLink to="/indinxg" className="navlink_pages" id="active">Home</NavLink>
             <NavLink to="/services" className="navlink_pages" >Services</NavLink>
-            <NavLink to="/blog" className="navlink_pages">Blog</NavLink>
+            <NavLink to="/notfound" className="navlink_pages">Blog</NavLink>
             <NavLink to="/about_us_and_our_team" className="navlink_pages">About Us</NavLink>
             <NavLink to="/contact_us"  className="navlink_pages">Contact Us</NavLink>
           </div>
@@ -32,11 +32,9 @@ export default function DashNavbar() {
                <div className="menu_drop_down_list">
             <NavLink to="/indinxg" className="navlink_pages_dropdown" id="active">Home</NavLink>
             <NavLink to="/services" className="navlink_pages_dropdown" >Services</NavLink>
-            <NavLink to="/blog" className="navlink_pages_dropdown">Blog</NavLink>
+            <NavLink to="/notfound" className="navlink_pages_dropdown">Blog</NavLink>
             <NavLink to="/about_us_and_our_team" className="navlink_pages_dropdown">About Us</NavLink>
             <NavLink to="/contact_us"  className="navlink_pages_dropdown">Contact Us</NavLink>
-            <NavLink to="/try_a_solution"  className="navlink_pages_dropdown"> Try Solution</NavLink>   
-            <NavLink to="/contact_us"  className="navlink_pages_dropdown">Support</NavLink>   
             </div> 
             </div>
             : 

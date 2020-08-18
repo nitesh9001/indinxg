@@ -6,9 +6,9 @@ import img_contactus from '../../Assets/aboutus.jpg'
 
 
 function Aboutus() {
-  // useEffect(()=>{
-  //   window.scrollTo(0,0);
-  // },[])
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
    const about_us_info = {
      info:" iipsum, dolor sit amem, libero consequaturetur, adipisicing elit. Rem consequatur doloribus harum officia, modi assumenda enim quod similique itaque accusantium nisi, commodi nam labore sunt, vitae obcaecati perspiciatis. Tenetur, repellendus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus."
      }

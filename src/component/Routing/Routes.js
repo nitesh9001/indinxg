@@ -1,7 +1,6 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom';
 import Landing from '../Dashboard/Landing';
-
 import ContactUs from '../Dashboard/ContactUs';
 import Aboutus from '../Dashboard/Aboutus';
 import Blog from '../Dashboard/Blog';
@@ -9,6 +8,8 @@ import Services from '../Dashboard/Services';
 import Notfound from '../Dashboard/Notfound';
 import ScrollalwaysTop from '../Layout/ScrollalwaysTop';
 import Trysolution from '../Layout/Trysolution';
+import GiveTestimonial from '../Dashboard/GiveTestimonails';
+
 
 
 
@@ -23,8 +24,7 @@ function Routes() {
             <Route exact path="/services" component={Services} />
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/notfound" component={Notfound} />
-            <Route exact path="/try" component={Trysolution} />
-             
+            <Route exact path="/give_testimonails" component={GiveTestimonial} />
             </Switch>
             </ScrollalwaysTop>
 
