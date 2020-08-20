@@ -10,8 +10,6 @@ import ScrollalwaysTop from '../Layout/ScrollalwaysTop';
 import GiveTestimonial from '../Dashboard/GiveTestimonails';
 
 
-
-
 function Routes() {
     return (
         <div>
@@ -25,6 +23,7 @@ function Routes() {
             <Route exact path="/notfound" component={Notfound} />
             <Route exact path="/give_testimonails" component={GiveTestimonial} />
             <Route component={Notfound} />
+        
             </Switch>
             </ScrollalwaysTop>
 

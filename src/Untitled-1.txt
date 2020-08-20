@@ -1,0 +1,4 @@
+Request Id: 489c12bb-a722-484e-9704-7a422a148800
+Correlation Id: 1f5a13ea-561f-4087-92bd-2e69e91ac863
+Timestamp: 2020-08-20T18:52:47Z
+Message: AADSTS90072: User account 'niteshsingh9001@gmail.com' from identity provider 'live.com' does not exist in tenant 'Qualcomm' and cannot access the application 'http://www.workday.com/PROD'(Workday) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with a different Azure Active Directory user account
