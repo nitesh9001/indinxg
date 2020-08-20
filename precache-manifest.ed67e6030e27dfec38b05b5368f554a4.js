@@ -1,31 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad44922e644b79d80a1cbac457868748",
+    "revision": "f866badc89d359d147e148bf15fcf8d5",
     "url": "/indinxg/index.html"
   },
   {
-    "revision": "98d346a6669ef0670892",
-    "url": "/indinxg/static/css/2.5dae0965.chunk.css"
+    "revision": "2020ddb0a96c00b87ac1",
+    "url": "/indinxg/static/css/0.4481c04f.chunk.css"
   },
   {
-    "revision": "db3f71c7bb42cbca1a38",
-    "url": "/indinxg/static/css/main.c8056ef3.chunk.css"
+    "revision": "0c8f8e65bd04ed72d775",
+    "url": "/indinxg/static/css/1.1c5112aa.chunk.css"
   },
   {
-    "revision": "98d346a6669ef0670892",
-    "url": "/indinxg/static/js/2.f386a346.chunk.js"
+    "revision": "aec3609eca1c3ea591e5",
+    "url": "/indinxg/static/css/4.80ea0d99.chunk.css"
+  },
+  {
+    "revision": "446ee05bcbd2db610a0a",
+    "url": "/indinxg/static/css/main.33cd279c.chunk.css"
+  },
+  {
+    "revision": "2020ddb0a96c00b87ac1",
+    "url": "/indinxg/static/js/0.63231631.chunk.js"
+  },
+  {
+    "revision": "0c8f8e65bd04ed72d775",
+    "url": "/indinxg/static/js/1.69c41d9e.chunk.js"
+  },
+  {
+    "revision": "aec3609eca1c3ea591e5",
+    "url": "/indinxg/static/js/4.9e9da2ec.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/indinxg/static/js/2.f386a346.chunk.js.LICENSE.txt"
+    "url": "/indinxg/static/js/4.9e9da2ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db3f71c7bb42cbca1a38",
-    "url": "/indinxg/static/js/main.bc8f0248.chunk.js"
+    "revision": "226b7cf34f626da7c812",
+    "url": "/indinxg/static/js/5.95ce0eaa.chunk.js"
   },
   {
-    "revision": "63ef7b7d26bb149759df",
-    "url": "/indinxg/static/js/runtime-main.f50241af.js"
+    "revision": "446ee05bcbd2db610a0a",
+    "url": "/indinxg/static/js/main.7598d5a9.chunk.js"
+  },
+  {
+    "revision": "a4fcae2f260c26b337bc",
+    "url": "/indinxg/static/js/runtime-main.1c2b132c.js"
   },
   {
     "revision": "c77019923dbe1b500e5e6b5ee90a3044",
@@ -122,6 +142,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "22762f87db2515512675c9a287b42147",
     "url": "/indinxg/static/media/pcsoft.22762f87.png"
+  },
+  {
+    "revision": "48d270907fbb64b142ed88fc79e242b4",
+    "url": "/indinxg/static/media/preloader.48d27090.svg"
   },
   {
     "revision": "b3b68b25364472c17d4eb2de3c5e6ad4",
