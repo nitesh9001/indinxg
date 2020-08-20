@@ -7,7 +7,6 @@ import Blog from '../Dashboard/Blog';
 import Services from '../Dashboard/Services';
 import Notfound from '../Dashboard/Notfound';
 import ScrollalwaysTop from '../Layout/ScrollalwaysTop';
-import Trysolution from '../Layout/Trysolution';
 import GiveTestimonial from '../Dashboard/GiveTestimonails';
 
 
@@ -25,6 +24,7 @@ function Routes() {
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/notfound" component={Notfound} />
             <Route exact path="/give_testimonails" component={GiveTestimonial} />
+            <Route component={Notfound} />
             </Switch>
             </ScrollalwaysTop>
 
