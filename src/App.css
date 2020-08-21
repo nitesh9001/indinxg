@@ -9,6 +9,7 @@
   --dot-color:#a5b7d2;
   --dashboard-back:rgba(240, 240, 240, 0.63);
   --background: linear-gradient(225.6deg, rgb(63, 0, 211) 0%, rgb(13, 1, 48) 100%);
+  --margin:250px;
 }
 button:focus,
 textarea:focus,
@@ -25,19 +26,42 @@ input[type=checkbox]{
 .loader_center{
   width: 100%;
   height: 100%;
-
+justify-content: center;
 }
-.loader_svg{
+.two_img_loader{
   width: 250px;
-  height: 250px;
+  z-index: 1;
+  justify-content: center;
   text-align: center;
+  margin-top: 200px;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  display: table-cell;
-  justify-content: center;
-  vertical-align: middle;
-  margin-top:200px;
+  animation-name: ani;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(4);
+  animation-direction: normal;
+  animation-delay:.4s;
+  /* transform: translateY(80px); */
 }
+
+@keyframes ani{
+  0%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 0.4;
+  }
+  80%{
+    opacity: 0.8;
+  }
+  100%{
+    opacity: 1;
+    /* visibility: hidden; */
+  }
+}
+/*  */
 .flex_input{
   margin-left: 20px;
   display: flex;
@@ -56,7 +80,6 @@ width: 100%;
 }
 .progressbar_indicator .progressbar_indicator_bar{
   height: 100%;
-  
   background-color:var(--hover-color);
 }
 

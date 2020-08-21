@@ -1,12 +1,13 @@
 import React from 'react';
-import loader from '../../Assets/preloader.svg';
+
+import front from '../../Assets/front.svg';
 
 
 function Loader() {
     return (
-            <div className="loader_center">
-                <img alt="Loading" src={loader} className="loader_svg"/>
-              </div>
+            <div className="loader_center" >
+                <img alt="Loading" src={front} className="two_img_loader"/>
+            </div>
     )
 }
 

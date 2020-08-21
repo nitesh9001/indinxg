@@ -1,6 +1,6 @@
 import React,{Fragment,useEffect,useState} from 'react';
 import DashNavbar from '../Layout/Navbar';
-import img_contactus from '../../Assets/services.png'
+import img_contactus from '../../Assets/services.svg'
 import Footer from '../Layout/Footer';
 import { Link } from 'react-router-dom';
 import Trysolution from '../Layout/Trysolution';
