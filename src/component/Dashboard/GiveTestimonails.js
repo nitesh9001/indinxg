@@ -1,7 +1,7 @@
 import React, { Fragment,useEffect } from 'react'
 import DashNavbar from '../Layout/Navbar'
 import Footer from '../Layout/Footer'
-import image from '../../Assets/testimonials_banner.svg'
+import image from '../../Assets/testimonials_banner.png'
 function GiveTestimonial() {
   useEffect(()=>{
     window.scrollTo(0,0);
