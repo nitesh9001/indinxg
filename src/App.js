@@ -1,6 +1,6 @@
 import React,{Suspense,lazy} from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router,Route, Switch } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.css';
 import Landing from './component/Dashboard/Landing';
 import Loader from './component/Layout/Loader';
@@ -15,7 +15,7 @@ function App() {
           <div className="App">  
             {/* <ReactNotification />         */}
             <Switch>
-            <Route exact path="/indinxg" component={Landing} />
+            <Route exact path="/" component={Landing} />
             <Suspense fallback={
              <div>
                <Loader/>
