@@ -1,11 +1,7 @@
 import React ,{Fragment,useEffect,useState } from 'react';
 import DashNavbar from '../Layout/Navbar';
 import img_landing from '../../Assets/landingImg.png';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import method from '../../Assets/agile.png';
-import technology from '../../Assets/technology.png';
-import system from '../../Assets/systemsIntegration.png';
-import inovative from '../../Assets/inovation.png';
+
 import ScrollToTop from '../Layout/scrollToTop';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
@@ -101,10 +97,10 @@ function Landing() {
              <div className="one"></div>
               <div className="content_landing">
                <h1 className="taglines_up" data-aos="fade-down">
-                   An Idea <br/> For Better Advice
+               We Develop Amazing Website 
                </h1>
                <h1 className="taglines_down" data-aos="fade-right">
-                   Software Solutions
+               Mobile Application
                </h1>
                <br/>
               <div className="quotes_under_tagline">
@@ -166,7 +162,7 @@ function Landing() {
        <h6 className="titleformidheading">WE WORK</h6>
        </div>
           <div className="innerbody_highlight_aboutus_content">
-              <h1>We<br/> Make Your work better</h1>
+              <h1>We<br/> Work with Companies</h1>
           </div> 
           <div className="innerbody_highlight_aboutus_content_info_data">
             <div className="innerbody_highlight_aboutus_content_data_flex" data-aos="fade-up">
@@ -194,26 +190,6 @@ function Landing() {
               </div>
             </div>
           </div>
-        <Tabs className="slide_tablist_items">
-        <TabList className="slide_tablist_items_tablist" data-aos="fade-left">
-            <Tab className="slide_tablist_items_tablist_tabitem" >Agile Methodology</Tab>
-            <Tab className="slide_tablist_items_tablist_tabitem" >Adapting to Latest Technology</Tab>
-            <Tab className="slide_tablist_items_tablist_tabitem" >Simplify System Integration</Tab>
-            <Tab className="slide_tablist_items_tablist_tabitem" >Innovating and Unique Solution</Tab>
-        </TabList>
-        <TabPanel className="slide_tablist_items_tablist_tabcontent">
-            <img src={method} alt="img" />
-        </TabPanel>
-        <TabPanel className="slide_tablist_items_tablist_tabcontent" >
-           <img src={technology} alt="img" />
-        </TabPanel>
-        <TabPanel className="slide_tablist_items_tablist_tabcontent">
-           <img src={system} alt="img" />
-        </TabPanel>
-        <TabPanel className="slide_tablist_items_tablist_tabcontent">
-           <img src={inovative} alt="img" />
-        </TabPanel>
-        </Tabs>
         </div>
        <div className="innerbody_highlight_keypoints">
        <div className="highlight_dot">
