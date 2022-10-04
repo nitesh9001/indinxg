@@ -13,9 +13,8 @@ function Aboutus() {
      info:" iipsum, dolor sit amem, libero consequaturetur, adipisicing elit. Rem consequatur doloribus harum officia, modi assumenda enim quod similique itaque accusantium nisi, commodi nam labore sunt, vitae obcaecati perspiciatis. Tenetur, repellendus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus."
      }
        const team_data = [
-      {username:"Nitesh Singh" , teamMemberRole:"Web developer" , teamMemberquotes:"lorem epsumhbh yfhjfjhf jgjdghjdff hjvdhfv bzhdffh", li_link:"" ,insta_link:"",twiter_link:"",email_link:"" }
-      ,{username:"Akash Nigam" , teamMemberRole:"Marketing" , teamMemberquotes:"lorem epsumhbh yfhjfjhf jgjdghjdff hjvdhfv bzhdffh", li_link:"" ,insta_link:"",twiter_link:"",email_link:"" }
-    ]
+      {username:"Nitesh Singh" , teamMemberRole:"Full stack developer" , teamMemberquotes:"Have +2 years of experience as full stack.", li_link:"https://www.linkedin.com/in/nitesh9001/" ,insta_link:"",twiter_link:"",email_link:"indinxg@gmail.com" }
+      ]
     const Skills_data = [
       {type:"React js" , skill:"70%"},
       {type:"React Native" , skill:"80%"},
@@ -57,7 +56,7 @@ function Aboutus() {
                    <div key={index} className="about_us_skills_required">
                    <span className="about_type_skills">{skill_set.type}</span>: 
                     <div className="about_skill_back_skills"> 
-                    <span className="skills_loader_progress_bar" style={{ paddingLeft: `${skill_set.skill}` }} className="skills_hover_image">{skill_set.skill}</span></div>
+                    <span style={{ paddingLeft: `${skill_set.skill}` }} className="skills_hover_image">{skill_set.skill}</span></div>
                   </div>
                   )}
                </div>
