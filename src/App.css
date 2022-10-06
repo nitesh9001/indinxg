@@ -1502,7 +1502,6 @@ textarea,
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .felx_card_for_services{
@@ -1513,6 +1512,7 @@ textarea,
   margin: 20px 40px;
   padding: 5px 15px 5px 15px;
   text-align: left;
+  border-radius: 4px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.38);
 }
 .felx_card_for_services:hover{
@@ -1542,7 +1542,7 @@ textarea,
   padding-top: 15px;
   font-size: 20px;
   font-weight: bold;
-  color: gray;
+  color: rgb(56, 134, 223);
 }
 .felx_card_for_services_tagline_bottom{
   color: var(--dark-color);

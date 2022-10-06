@@ -32,35 +32,37 @@ function Landing() {
     const service_data=[
       {id:"1",
        servicesicon:"fa fa-cogs" ,
-       services_name:"Service_one",
-       services_deatils:"sdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbgdsdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg" ,
+       services_name:"Website Building",
+       services_deatils:"A great website should generate qualified leads. When customers aren’t sure which button to click on or what information to read next, it can lead to them bouncing off your site. This leads to one of the most important considerations: is your website guiding your leads toward more meaningful interactions with your brand as soon as they visit your homepage? If you’re not sure, keep reading with your website in mind. That's where we came into picture to provide best of attraction and real time enagagment" ,
        service_img: 'appsoft.png' , 
-       service_animation:"fade-left"},
-     {id:"2",
+       service_animation:"fade-left"
+      },
+      {
+       id:"2", 
+       servicesicon:"fa fa-cogs" , 
+       services_name:"Application development",  
+       services_deatils:"we offer full-cycle of mobile app development services including planning, designing, integration, and management. Be it a customer-oriented or enterprise-level application, we provide end-to-end mobile application development solutions across distinctive verticals. Enhance your business growth by developing a simplified & user-friendly app for smartphones, tablets, or both." , 
+       service_img:"pcsoft.png", 
+       service_animation:"fade-right"},
+     {id:"3",
       servicesicon:"fa fa-cogs" ,
-      services_name:"Service_one" ,  
-      services_deatils:"dsdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbgsdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg",
+      services_name:"SEO optimization" ,  
+      services_deatils:"Yes, You'er thinking correct it is important in today world to Optimize your website according to serach engine so your website rank on top.We used our talents, to create our values, structure, process, and custom digital marketing strategies. Creating an in-house culture, that lets these behaviors and actions live and grow. It sounds simple, but it really works.",
       service_img:"seo.png", 
-      service_animation:"fade-right"},
-     {id:"3", 
-      servicesicon:"fa fa-cogs" , 
-      services_name:"Service_one",   
-      services_deatils:"dsdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg sdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg",
-      service_img:"saas.png", 
       service_animation:"fade-left"},
      {id:"4", 
-     servicesicon:"fa fa-cogs" , 
-     services_name:"Service_one",  
-     services_deatils:"dsdnjd dbfjbfj hjbthjbs hbvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg sfbshfbhjf nf jhfbsfbkjf fbhfbsjnf snfbuisbsmnf jhfbjf skfnsjk msfnisfbskmf skjfbjs hfbsfbkjf fbhfbsjnf snfbuisbsmnbfmnsfbuisf nmbfuzygfsnf nmbfuisbf smnf hsgfsf sn nhsvfusdbfhjm" , 
-     service_img:"pcsoft.png", 
-     service_animation:"fade-right"},
+      servicesicon:"fa fa-cogs" , 
+      services_name:"Software as a Service(SAAS)",   
+      services_deatils:"SaaS means Software as a Service. It’s a cloud-based service in which rather than downloading software to a desktop PC or business network, an app is accessed via an internet browser instead. The software app could be anything, ranging from office software to unified communications among an array of other available business applications. In software as a service, a user need not pay for the software itself. It works as a rental, in which users could use it for a specific time and pay for software usage. An offshore outsourcing like Tatvasoft could provide SaaS solutions to organizations.",
+      service_img:"saas.png", 
+      service_animation:"fade-right"},
      {id:"5", 
      servicesicon:"fa fa-cogs" , 
-     services_name:"Service_one",  
-     services_deatils:"dsdnjd dbfjbfj hjbthjbs hbsfbshfbhjf nf jhfbsfbkjf fbhfbsjnf snfbuisbsmnf jhfbjf skfnsjk msfnisfbskmf skjfbjs fjskfbjhsfn, fsjkfbshf sm,fui  f hfvjsf snfbusifbskf mnbfuidsbfmnsfbuisf nmbfuzygfsnf nmbfuisbf smnf hsgfsf sn nhsvfusdbfhjmvxbcvjbxjbvs bgsbjbggbs ghbfgbhd hsbhbhgbdg hbhjbghdg jjhbghdbdh arbhrrhuttbhfu hfithigt  ahsrright jaifr  ffh nitesh skimt thinghah gfbg",
+     services_name:"Digital Marketing",  
+     services_deatils:"We provide digital marketing services to all size of businesses with an opportunity to market their brand 24*7 with cost efficacy. From SMEs, startups to enterprises to multiple-location companies, we help you  to expand your niche market reach to offer goods and services to your target customers, irrespective of time differences or location. We follows a systematic approach to ensure all our online marketing efforts deliver profitable results. We help you to break through your growth plateau and see profound ROI with a our digital marketing specialists.",
      service_img:"digital.png",
      service_animation:"fade-left"},
-  ]
+    ]
 
       const content = [
         {
@@ -97,10 +99,10 @@ function Landing() {
              <div className="one"></div>
               <div className="content_landing">
                <h1 className="taglines_up" data-aos="fade-down">
-               We Develop Amazing Website 
+                  We Develop for YOU 
                </h1>
                <h1 className="taglines_down" data-aos="fade-right">
-               Mobile Application
+                  Websites or Application Solution
                </h1>
                <br/>
               <div className="quotes_under_tagline">
@@ -124,7 +126,7 @@ function Landing() {
             <img src="https://img.icons8.com/nolan/64/door-to-door-delivery.png" alt="img" />
             <br/>
             <div className="title_flipcard">
-                <p className="title_info">We offer services at your location</p>
+                <p className="title_info">We offer services at your ease</p>
             </div>
         </div>           
        
@@ -167,7 +169,7 @@ function Landing() {
           <div className="innerbody_highlight_aboutus_content_info_data">
             <div className="innerbody_highlight_aboutus_content_data_flex" data-aos="fade-up">
             <div className="innerbody_highlight_aboutus_content_data_flex_number" data-aos="fade-left">
-            <span>+ 12</span>
+            <span>+ 2</span>
               </div>
               <div className="innerbody_highlight_aboutus_content_data_flex_head" data-aos="fade-right">
               <h4>Active Clients</h4>   
@@ -175,7 +177,7 @@ function Landing() {
             </div>
             <div className="innerbody_highlight_aboutus_content_data_flex" data-aos="fade-up">
             <div className="innerbody_highlight_aboutus_content_data_flex_number" data-aos="fade-left">
-            <span>+ 12</span>
+            <span>+ 3</span>
               </div>
               <div className="innerbody_highlight_aboutus_content_data_flex_head" data-aos="fade-right">
               <h4>Projects Done</h4>   
@@ -183,7 +185,7 @@ function Landing() {
             </div>
             <div className="innerbody_highlight_aboutus_content_data_flex"  data-aos="fade-up">
             <div className="innerbody_highlight_aboutus_content_data_flex_number" data-aos="fade-left">
-            <span>+ 12</span>
+            <span>+ 3</span>
               </div>
               <div className="innerbody_highlight_aboutus_content_data_flex_head" data-aos="fade-right">
               <h4>Satisfied Clients</h4>   
@@ -210,7 +212,9 @@ function Landing() {
            <p> Very Low Cost </p>
           </div>
           <div className="innerbody_highlight_keypoints_disc">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor mollitia, </p>
+              <p>
+                We here to deliver your solution at low cost. You never thought of.
+              </p>
           </div>
        </div>
        <div className="innerbody_highlight_keypoints_flex_item">
@@ -224,7 +228,7 @@ function Landing() {
           <p>Timely Delivered</p>
           </div>
           <div className="innerbody_highlight_keypoints_disc">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor mollitia, </p>
+          <p>Be patience, we always keep track of time and deliver our Clients timely.  </p>
           </div>
        </div>
        <div className="innerbody_highlight_keypoints_flex_item">
@@ -238,7 +242,7 @@ function Landing() {
           <p>High Quality Product</p>
           </div>
           <div className="innerbody_highlight_keypoints_disc">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor mollitia, </p>
+          <p>Timely delivery and low cost won't affect your quality. You can trust on us </p>
           </div>
        </div>
        </div>
@@ -259,7 +263,7 @@ function Landing() {
                <h1>{data.services_name}</h1>
               </div>
               <div className="innerbody_highlight_services_list_object_content_info">
-               {data.services_deatils.slice(0,400)}    
+               {data.services_deatils.slice(0,500)}  {data.services_deatils?.length > 500 && <span style={{color: "black"}}>...more</span>}   
               </div>
           </div>
           <div className="innerbody_highlight_services_list_object_img"> 

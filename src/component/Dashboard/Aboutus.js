@@ -10,10 +10,10 @@ function Aboutus() {
     window.scrollTo(0,0);
   },[])
    const about_us_info = {
-     info:" iipsum, dolor sit amem, libero consequaturetur, adipisicing elit. Rem consequatur doloribus harum officia, modi assumenda enim quod similique itaque accusantium nisi, commodi nam labore sunt, vitae obcaecati perspiciatis. Tenetur, repellendus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus."
-     }
+      info:" iipsum, dolor sit amem, libero consequaturetur, adipisicing elit. Rem consequatur doloribus harum officia, modi assumenda enim quod similique itaque accusantium nisi, commodi nam labore sunt, vitae obcaecati perspiciatis. Tenetur, repellendus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus."
+      }
        const team_data = [
-      {username:"Nitesh Singh" , teamMemberRole:"Full stack developer" , teamMemberquotes:"Have +2 years of experience as full stack.", li_link:"https://www.linkedin.com/in/nitesh9001/" ,insta_link:"",twiter_link:"",email_link:"indinxg@gmail.com" }
+        {username:"Nitesh Singh" , teamMemberRole:"Full stack developer" , teamMemberquotes:"Have +2 years of experience as full stack.", li_link:"https://www.linkedin.com/in/nitesh9001/" ,insta_link:"",twiter_link:"",email_link:"indinxg@gmail.com" }
       ]
     const Skills_data = [
       {type:"React js" , skill:"70%"},
