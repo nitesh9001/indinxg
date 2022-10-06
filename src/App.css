@@ -1094,7 +1094,7 @@ box-shadow: 0 0 5px var(--primary-color);
 .our_list_text_info{
   font-size: 14px;
   color: whitesmoke;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 500;
 }
 .flex_box_contact_form{
@@ -1273,12 +1273,15 @@ textarea,
 
 }
 .img_team_card{
+  margin: 20px 110px 0 110px;
+  /* background-color: antiquewhite; */
+}
+.img_team_card img{
   width: 80px;
   height: 80px;
-  margin: 20px 110px 0 110px;
-  border-radius: 40px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
-  background-color: antiquewhite;
+  border-radius: 40px;
+  overflow: hidden;
 }
 .content_team_card{
   display: grid;
@@ -1304,7 +1307,7 @@ textarea,
 }
 .social_icon_team_card_group{
   display: flex;
-  margin: 0 80px;
+  margin: 0 auto;
 }
 .social_icon_team_card{
   width: 35px;

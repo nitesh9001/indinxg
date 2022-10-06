@@ -10,18 +10,50 @@ function Aboutus() {
     window.scrollTo(0,0);
   },[])
    const about_us_info = {
-      info:" iipsum, dolor sit amem, libero consequaturetur, adipisicing elit. Rem consequatur doloribus harum officia, modi assumenda enim quod similique itaque accusantium nisi, commodi nam labore sunt, vitae obcaecati perspiciatis. Tenetur, repellendus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus soluta placeat tenetur, autem quos voluptatum eveniet officia aliquam? Facilis, expedita. Nostrum placeat animi vel quos fugit totam eligendi iure necessitatibus."
+      info:"We are professional developer and software engineer, Our developer have minimum 2 years of experience. We have seperate developer for each stack they are very dedicated to work and manage code like a pro. We follow agile method where we and client can tack work progress and can question about product. We know how to write code with optimization and well structured code based."
       }
        const team_data = [
-        {username:"Nitesh Singh" , teamMemberRole:"Full stack developer" , teamMemberquotes:"Have +2 years of experience as full stack.", li_link:"https://www.linkedin.com/in/nitesh9001/" ,insta_link:"",twiter_link:"",email_link:"indinxg@gmail.com" }
+        {
+          img: "https://secure.gravatar.com/avatar/76dc2fa94ce9d14fa281a56335875f77?s=64&d=404", 
+          username:"Nitesh Singh" , 
+          teamMemberRole:"Full stack developer" , 
+          teamMemberquotes:"Have +2 years of experience as full stack (React + Nodejs).", 
+          li_link:"https://www.linkedin.com/in/nitesh9001/" ,
+          insta_link:"",
+          twiter_link:"",
+          email_link:"indinxg@gmail.com" 
+        },{
+          img: "https://avatars.githubusercontent.com/u/72046474?v=4", 
+          username:"Saurabh Singh" , 
+          teamMemberRole:"Mobile developer" , 
+          teamMemberquotes:"Have +3 years of experience as full stack (Flutter + Nodejs).", 
+          li_link:"" ,
+          insta_link:"",
+          twiter_link:"",
+          email_link:"indinxg@gmail.com" 
+        },{
+          img: "https://avatars.githubusercontent.com/u/72046474?v=4", 
+          username:"Deepak Yadav",
+          teamMemberRole:"Mobile developer" , 
+          teamMemberquotes:"Have +2 years of experience as full stack (Flutter + Native) .", 
+          li_link:"" ,
+          insta_link:"",
+          twiter_link:"",
+          email_link:"indinxg@gmail.com" 
+        },{
+          img: "https://lh3.googleusercontent.com/a-/ACNPEu8_Hk85F_KPIwXbbJfRAQZfvpZG_8xpcEn92Ho2jA=s128-p-k-rw-no", username:"Rahul Gupta" , teamMemberRole:"Angular developer" , teamMemberquotes:"Have +2 years of experience as full stack (Angular).", 
+          li_link:"" ,
+          insta_link:"",
+          twiter_link:"",
+          email_link:"indinxg@gmail.com" 
+        }
       ]
     const Skills_data = [
-      {type:"React js" , skill:"70%"},
+      {type:"React js" , skill:"90%"},
       {type:"React Native" , skill:"80%"},
-      {type:"Flutter" , skill:"80%"},
-      {type:"Node js" , skill:"90%"},
-      {type:"ML/AI" , skill:"70%"},
-      {type:"PHP" , skill:"65%"}
+      {type:"Flutter" , skill:"90%"},
+      {type:"Node js" , skill:"80%"},
+      {type:"Angular" , skill:"80%"},
     ]
     return (
         <Fragment>
@@ -47,11 +79,12 @@ function Aboutus() {
              <div className="about_us_split_ourskills">
                <div className="about_us_split_ourskills_why_people_like_us">
                    <h3>Why People Like Us</h3>
-                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam ut quasi deleniti in et magnam tenetur doloribus provident nostrum voluptatem iste ratione quis possimus commodi, adipisci magni recusandae perferendis ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet alias eligendi pariatur sed enim vel rem corporis nesciunt minima harum quo, asperiores provident voluptatibus praesentium aut facere, maxime officiis temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem illum eligendi dolorum porro laudantium facere aperiam corporis voluptate ipsa expedita asperiores quis impedit culpa doloribus, dignissimos at nostrum exercitationem quo!</p>
+                   <p>People like us because we deliver what we say or bound, our team believe in timely delivery and high code quality which easy to manage. We also provide 1 year free service* and client have freedom to make wish while development process. </p>
+                   <p>People like us because we always feel a compassion in other's dream to convert into reality. </p>
                </div>
                <div className="about_us_split_ourskills_we_are_good_in">
                   <h3>We Are Good in</h3>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, voluptates. Aut, doloribus. Dolorum quidem dolores et rem aut consectetur quos non expedita dolore. Voluptate vitae accusamus rem modi aliquam atque!</p>
+                  <p>We are good in stacks like React, Nodejs , MongoDB, Flutter, Redux, Angular, Recat native, SEO etc.</p>
                   {Skills_data.map((skill_set,index)=>
                    <div key={index} className="about_us_skills_required">
                    <span className="about_type_skills">{skill_set.type}</span>: 
@@ -68,14 +101,13 @@ function Aboutus() {
              </div>
             <div className="meet_our_talented_team">
              <span className="heading_for_team">Meet Our Qualified Team </span>
-                  <p className="quotes_for_team">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iusto minus, tempore quis id itaque a sunt tenetur autem impedit odit dolores quia voluptatum perspiciatis eius quos hic nihil facilis!
-                  </p>
+                  
             <div className="grid_collection_section_team">
             {team_data.map((data ,index)=>
                 <div className="flex_equal_team_card" key={index}>
                      <div className="img_team_card">
-                </div>
+                       <img src={data?.img}/>
+                     </div>
                      <div className="content_team_card">
                        <span className="head_team_card">
                          {data.username}     
@@ -89,17 +121,17 @@ function Aboutus() {
                      </div>
                      <div className="social_icon_team_card_group">
                             <div className="social_icon_team_card">
-                            <Link to="/" className="link_social_icon_card"><i class="fa fa-linkedin" ></i></Link>
+                               <a className="link_social_icon_card" onClick={() => window.open(data?.li_link, "_blank") }><i class="fa fa-linkedin" ></i></a>
                             </div>
-                            <div className="social_icon_team_card">
+                            {/* <div className="social_icon_team_card">
                             <Link to="/" className="link_social_icon_card"><i class="fa fa-twitter" ></i></Link>
-                            </div>
+                            </div> */}
                             <div className="social_icon_team_card">
-                            <Link to="/" className="link_social_icon_card"><i class="fa fa-envelope" ></i></Link>
+                            <a href='mailto:indinxg@gmail.com' className="link_social_icon_card"><i class="fa fa-envelope" ></i></a>
                             </div>
-                            <div className="social_icon_team_card">
+                            {/* <div className="social_icon_team_card">
                             <Link to="/" className="link_social_icon_card"><i class="fa fa-instagram" ></i></Link>
-                            </div>
+                            </div> */}
                      </div>
                 </div>
                 )}

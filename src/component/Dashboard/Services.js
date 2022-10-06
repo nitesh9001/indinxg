@@ -60,7 +60,7 @@ function Services() {
               <h3>Services We provide</h3>
               <p className="tagline_services">Our professional team try to transform your ideas into a real product and provide 24 * 7 support.</p>
               <p className="tagline_services_det">
-              We believe that customer service is not a department ,its an attitude, one must have. We turn your ideas and concepts into real performant website /App . We help you to acheive your goals whatever it takes. Bond your trust wuth us it unites your idea and our hardwork into a reality. I know you have idea that will change the world so be it pass it to us we make it true.
+                We believe that customer service is not a department ,its an attitude, one must have. We turn your ideas and concepts into real performant website /App . We help you to acheive your goals whatever it takes. Bond your trust wuth us it unites your idea and our hardwork into a reality. I know you have idea that will change the world so be it pass it to us we make it true.
               </p>
               <button className="btn_services_css sol" onClick={opentry_solution}>Start Now <i class="fa fa-long-arrow-right" aria-hidden="true" style={{color:"#FAAD3B"}}></i> </button> 
               </div>
